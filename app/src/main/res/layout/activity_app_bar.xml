@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    tools:context=".AppBar"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.DayNight.ActionBar"
+    android:background="@color/black"
+    android:tooltipText="@string/app_name"
+    >
+
+    <include
+        layout="@layout/toolbar_main"
+        android:id="@+id/toolbar"/>
+
+</LinearLayout>
