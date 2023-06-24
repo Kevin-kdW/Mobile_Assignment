@@ -13,18 +13,19 @@
         android:theme="@style/Theme.Mobile_Assignment"
         tools:targetApi="31">
         <activity
-            android:name=".AppBar"
-            android:exported="false"
-
-            />
-
-        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppBar"
+            android:exported="false" />
+        <activity
+            android:name=".SpplashScreen"
             android:exported="true"
             android:label="Main Menu">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
